@@ -4,12 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Hexschool</title>
 	<link rel="stylesheet" href="css/hp.css">
+	<link rel="icon" href="https://www.hexschool.com/favicon.ico">
+	
+	<meta name="description" content="Hex school practice"/>
+	<meta name="keywords" content="Hex school practice"/>
+	<meta porperty="og:title" content="Hex school"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:site_name" content="Hex school practice"/>
+	<meta property="og:description" content="Hex school practice"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
 </head>
 	<body>
 	<div class="wrap">
 
-		<div class="bar">
 			<div class="header">
 			<ul>
 				<li class="fb">
@@ -27,7 +36,6 @@
 			</ul>
 			</div>
 
-		</div>
 		<div class="tpmenu">
 			<h1>
 				<a href="#" target="_blank">
@@ -44,15 +52,15 @@
 			<div class="banner">
 				<h2>六角學院<br>
 				讓你奠定良好的前端基礎</h2>
-				<img src="photo/banner.png">
+				<img src="https://i.imgur.com/96giTuS.png">
 
 			</div>
 		</div>
 
 		<div class="main">
-			<ul class="box">
+			<ul>
 				<li class="case">
-					<a href="#" target="_blank" class="left_case"><img src="photo/html.png" alt="">	
+					<a href="#" target="_blank" class="left_case"><img src="https://i.imgur.com/8TNyNpP.png" alt="">	
 						<h3 class="left_h3">Html 教學</h3>
 						<p>
 							主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。
@@ -62,7 +70,7 @@
 						
 					
 				<li class="case">
-					<a href="#" target="_blank" class="mid_case"><img src="photo/rwd.png" alt="">
+					<a href="#" target="_blank" class="mid_case"><img src="https://i.imgur.com/3d9t4xe.png" alt="">
 						<h3 class="mid_h3">響應式網站設計</h3>
 						<p>
 							響應式網站設計(Responsive web design),目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。
@@ -73,7 +81,7 @@
 				
 				
 				<li class="case">
-					<a href="#" target="_blank" class="right_case"><img src="photo/jQuery.png" alt="">
+					<a href="#" target="_blank" class="right_case"><img src="https://i.imgur.com/TZzNxYJ.png" alt="">
 						<h3 class="right_h3">jQury</h3>
 						<ul class="jq_list">
 							<p>本課程有以下特色</p>
@@ -140,7 +148,7 @@
 			
 			<div class="form_out">
 				<h4>對我們課程有興趣嗎?<br>歡迎留下您的資料</h4>
-				<form action="">
+				<form action="" class="main_form">
 					
 					<div class="left_area">
 						<textarea name="context" id="" cols="74" rows="15" placeholder="請寫下任何想告訴我們的問題"></textarea>
@@ -151,20 +159,20 @@
 						<ul>
 						<li>
 							<label for="name">姓名</label>
-							<input type="text" id="name" placeholder="請輸入姓名" class="enter">
+							<input type="text" id="name" placeholder="請輸入姓名" class="enter" name="name">
 						</li>	
 						<li>
 							<label for="tel">電話</label>
-							<input type="text" id="tel" placeholder="請輸入電話" class="enter">
+							<input type="text" id="tel" placeholder="請輸入電話" class="enter" name="tel">
 						</li>
 						<li>	
 							<label for="mail">信箱</label>
-							<input type="text" id="mail" placeholder="請輸入E-mail" class="enter">
+							<input type="text" id="mail" placeholder="請輸入E-mail" class="enter" name="mail">
 						</li>
 						<li>
-							
+							<input type="submit" value="送出" class="btn" name="sb">
 						</li>
-							<input type="button" value="送出" class="btn">
+							
 						</ul>
 					</div>
 				</form>
@@ -172,7 +180,7 @@
 
 		<div class="footer">
 			<div class="footer_left">
-				<h5><a href="#" target="_blank">
+				<h5><a href="#" target="_blank" title="Hex school">
 					Hex School
 					</a>
 				</h5>
