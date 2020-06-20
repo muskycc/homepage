@@ -1,0 +1,363 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS RESET FINISHED*/
+
+
+/*Set all page width and default font style*/
+.wrap{					
+	width:1200px;
+	margin:0 auto;
+	font-family: Microsoft JhengHei;
+}
+
+/*Set header for FB and twitter icon and connection*/
+.header{
+	background:lightgray;
+}
+.header ul{
+	float:right;
+}
+
+.header ul li{
+	float:left;
+	margin:5px 0;
+}
+
+.header ul img{
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+
+.header a{
+	text-decoration:none;
+}
+
+.header a:hover{
+	color:red;
+}
+
+.header .fb{
+	padding-right:10px;
+	border-right:solid 3px gray;
+}
+
+.header .twr{
+	padding:0 10px;
+}
+
+ .header::after{
+  content: "";
+  display: block; 
+  clear: both;
+}
+
+/*Set top menu for log imagine and 3 options connection*/
+
+.tpmenu h1 a{
+	display:block;
+	width:224px;
+	height:50px;
+	background-image:url(https://i.imgur.com/asRlzKX.png);
+	float:left;
+	text-indent:101%;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.tpmenu ul{
+	float:right;
+}
+
+.tpmenu li{
+	float:left;
+}
+
+.tpmenu li a{
+	display:block;
+	width:100px;
+	font-size:20px;
+	color:#00cc99;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	border-bottom:3px solid transparent;
+}
+
+.tpmenu li a:hover{
+	color:red;
+	border-bottom:3px solid #00cc99;
+}
+
+.tpmenu::after{
+	content:"";
+	display:block;
+	clear:both;
+} 
+
+/*Using banner imagine as banner*/
+.banner_box{
+	position:relative;
+}
+
+.banner h2{
+	color:white;
+	font-size:40px;
+	position:absolute;
+	left:20px;
+	top:40%;
+}
+
+.banner img{
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+
+/*Using 3 different boxes as main content */
+
+.main{
+	width:870px;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+.main .case {
+	float:left;
+	width:250px;
+	height:320px;
+	padding:10px;
+	margin:0 10px;
+	border-radius:5px;
+	box-shadow:2px 2px 5px 1px lightgray,-2px 2px 5px 1px lightgray ;
+}
+
+.case h3{
+	text-align:center;
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+.case .left_h3{
+	margin-top:11px;
+}
+
+.case .mid_h3{
+	margin-top:62px;
+}
+
+.case .right_h3{
+	margin-top:32px;
+}
+
+.case p{
+	line-height:1.25;
+}
+
+.case img, .case a{
+	display:block;
+	margin:0 auto;
+}
+
+.case a{
+	text-decoration:none;
+}
+.case a:hover{
+	color:red;
+}
+
+.jq_list li{
+	list-style-position:inside;
+	list-style-type:disc;
+	text-indent:1em;
+	line-height:1.25;
+}
+
+.main::after{
+	content:"";
+	display:block;
+	clear:both;
+} 
+
+/*Using compare table as sub content*/
+.sub_content{
+	margin:80px auto 0 auto;
+	width:810px;
+}
+
+.sub_content p{
+	font-size:26px;
+	text-align:center;
+	margin-bottom:30px;
+	font-weight:bold;
+}
+
+.compare_list{
+	margin:0 auto;
+}
+
+.compare_list th{
+	background-color: #f7f7f7;
+	font-weight:bold;
+}
+
+.compare_list tr{
+	border-top:1px solid black; 
+	border-bottom:1px solid black;
+}
+
+.compare_list th, .compare_list td{
+	padding:10px 20px;
+	text-align:left;
+}
+
+.compare_list .win{
+	color:#00a67d;
+}
+
+
+/*Fill survey form to sent information */
+.form_out{
+	margin:50px auto 0px auto;
+	background: linear-gradient(#00644b,#009872);
+	-webkit-background: linear-gradient(#00644b,#009872);
+	-moz-background: linear-gradient(#00644b,#009872);
+}
+
+.form_out h4{
+	font-size:26px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:30px;
+}
+
+.left_area{
+	margin:80px 20px 0px 20px;
+	padding-bottom:20px;
+	width:560px;
+	float:left;
+}
+
+.left_area textarea{
+	border-radius:5px;
+	border:1px solid black;
+}
+
+.right_area{
+	margin:80px 20px 0px 20px;
+	padding-bottom:20px;
+	width:560px;
+	float:right;
+}
+
+.right_area li{
+	margin-bottom:20px;
+}
+
+.right_area .enter{
+	width:548px;
+	border-radius:5px;
+	border:1px solid black;
+	padding:5px;
+}
+
+.right_area .btn{
+	font-weight:bold;
+	width:100px;
+	padding:5px;
+	float:right;
+	color:white;
+	background-color: #00cc99;
+	border-radius:3px;
+	border:1px solid transparent;
+}
+
+.right_area .btn:hover{
+	border:1px solid black;
+	background-color:pink;
+	color:red;
+}
+
+.main_form::after{
+	content:"";
+	display:block;
+	clear:both;
+} 
+
+/*Bottom content of website*/
+.footer{
+	margin-top:30px;
+	padding-bottom:30px;
+}
+
+
+.footer_left a{
+	display:block;
+	width:171px;
+	height:36px;
+	background-image:url(https://i.imgur.com/wCDWCYe.png);
+	float:left;
+	text-indent:101%;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.footer_right{
+	float:right
+}
+
+.footer li{
+	margin-bottom:10px;
+}
+
+.footer::after{
+	content:"";
+	display:block;
+	clear:both;
+} 
+
+
+
+/*Using photo here https://imgur.com/a/vdTgl4M*/
